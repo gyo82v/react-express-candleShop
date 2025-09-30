@@ -4,6 +4,7 @@ import session from "express-session"
 import { fileURLToPath } from "node:url"
 import { initDB } from "./db/index.js"
 import cors from "cors"
+import productRouter from "./routes/product.js"
 
 const PORT = 8000
 
@@ -33,6 +34,7 @@ async function main() {
     }))
 
     //routes
+    app.use("/api/product", productRouter(db))
 
 
     //add here later production serve;

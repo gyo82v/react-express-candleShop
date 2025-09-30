@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS stock_items(
     scent TEXT NOT NULL,
     category TEXT NOT NULL,
     image TEXT NOT NULL
-)
+);

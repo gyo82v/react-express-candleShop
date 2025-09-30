@@ -1,4 +1,4 @@
-INSERT INTO cart (name, description, price, scent, category, image) VALUES 
+INSERT INTO stock_items (name, description, price, scent, category, image) VALUES 
             (
                 'Sunlit Grove',
                 'Bright citrus blend that lifts the mood with zesty lemon and soft bergamot notes.',
@@ -222,5 +222,4 @@ INSERT INTO cart (name, description, price, scent, category, image) VALUES
                 shallow pool of water with scattered green leaves, soft natural light from top-right, gentle ripples in
                 water out of focus, tranquil mood. Include a small driftwood piece and a tuft of sea grass nearby,
                 shallow depth of field, high-resolution.'
-             ),
-            ;
+             );
