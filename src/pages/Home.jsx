@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import CandleCard from "../components/CandleCard"
 
 export default function Home(){
     const [candles, setCandles] = useState([])
@@ -16,12 +17,10 @@ export default function Home(){
         fetchData()
     }, [])
 
-    const candlesArr = candles.map(c => (
-        <p key={c.id}>{c.name}</p>
-    ))
+    const candlesArr = candles.map(c => <CandleCard key={c.id} {...c} />)
 
     return(
-        <section>
+        <section className="p-4 flex flex-col gap-4">
             {candlesArr}
         </section>
     )

@@ -5,11 +5,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  12,
                 'lemon, bergamot',
                 'refresh',
-                'Photorealistic product shot of a small glass jar candle with warm yellow wax and a
-                 minimalist label that reads "Sunlit Grove". Candle sits on a neutral matte surface.
-                 Unified background: soft-focus shallow pool of water at rear-left with scattered green leaves,
-                 gentle natural sunlight from top-right, subtle reflections on surface, peaceful mood. Include
-                 slight steam/glow near wick to suggest warmth, shallow depth of field, high-resolution.'
+                '/images/sunlitGroveImg.png'
              ),
              (
                 'Velvet Ember',
@@ -17,10 +13,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  18,
                 'vanilla, sandalwood',
                 'cozy',
-                'Photorealistic product shot of a short matte jar candle with pale cream wax and an elegant label "Velvet Ember".
-                 Candle placed on the same neutral surface. Unified background: soft-focus shallow pool of water with a few brown
-                 and green leaves, soft warm natural light from top-right, calm reflective highlights, peaceful mood. Add subtle
-                 ember-glow near wick, shallow depth of field, high-resolution.'
+                '/images/velvetEmberImg.png'
              ),
              (
                 'Sea Silk',
@@ -28,10 +21,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  15,
                 'sea salt, eucalyptus',
                 'calm',
-                'Photorealistic product shot of a pale aqua glass candle with soft blue-green wax and minimalist label "Sea Silk".
-                 Candle centered on the same neutral matte surface. Unified background: soft-focus shallow pool of water with
-                 scattered green leaves, soft diffuse natural light from top-right, gentle ripples in water out of focus, tranquil mood.
-                 Include faint mist/sea-spray hint, shallow depth of field, high-resolution.'
+                '/images/seaSilkImg.png'
              ),
              (
                 'Rose & Rain',
@@ -39,10 +29,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  22,
                 'rose, ozonic (fresh rain)',
                 'serene',
-                'Photorealistic product shot of a frosted glass candle with blush-pink wax and refined label "Rose & Rain".
-                 Candle on the identical neutral surface. Unified background: soft-focus shallow pool of water with a few
-                 rose leaves and green foliage, soft natural light from top-right, peaceful mood. Add tiny water droplets
-                 on the glass, shallow depth of field, high-resolution.'
+                '/images/roseAndRainImg.png'
              ),
              (
                 'Herbal Hearth',
@@ -50,10 +37,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  9,
                 'avender, rosemary, cedar',
                 'relax',
-                'Photorealistic product shot of a rustic ceramic jar candle with lavender-lilac wax and a simple label "Herbal Hearth".
-                 Candle sits on the same neutral matte surface. Unified background: soft-focus shallow pool of water with scattered
-                 green leaves and a sprig of rosemary, gentle natural light top-right, calm mood. Include faint smoke curl or warm wick
-                 glow, shallow depth of field, high-resolution.'
+                '/images/herbalHeartImg.png'
              ),
              (
                 'Midday Clementine',
@@ -61,10 +45,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  11,
                 'clementine, honey',
                 'citrus',
-                'Photorealistic product shot of a small clear glass jar candle with vibrant orange wax and a minimalist label
-                 reading "Midday Clementine". Candle placed on a neutral matte surface. Unified background: soft-focus shallow
-                 pool of water with scattered green leaves, gentle natural sunlight from top-right, subtle reflections, peaceful
-                 mood. Include slight warm glow at wick, shallow depth of field, high-resolution.'
+                '/images/middayClementineImg.png'
              ),
              (
                 'Forest Whisper',
@@ -72,10 +53,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  16,
                 'pine, cedar',
                 'earthy',
-                'Photorealistic product shot of a short matte jar candle with deep forest-green wax and an elegant label
-                "Forest Whisper". Candle sits on the same neutral matte surface. Unified background: soft-focus shallow
-                 pool of water with scattered leaves, soft natural light from top-right, calm reflective highlights,
-                 peaceful mood. Add tiny moss sprig beside jar, shallow depth of field, high-resolution.'
+                '/images/forestWhisperImg.png'
              ),
              (
                 'Spice Bazaar',
@@ -83,10 +61,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  14,
                 'cinnamon, clove, orange',
                 'gourmand',
-                'Photorealistic product shot of a medium amber glass candle with warm cinnamon-brown wax and a tasteful label
-                "Spice Bazaar". Candle on the identical neutral surface. Unified background: soft-focus shallow pool of water
-                 with a few scattered leaves, soft natural light from top-right, peaceful mood. Include a small cinnamon stick
-                 and orange peel fragment nearby, shallow depth of field, high-resolution.'
+                '/images/spiceBazaarImg.png'
              ),
              (
                 'Minted Meadow',
@@ -94,10 +69,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  10,
                 'peppermint, basil',
                 'fresh',
-                'Photorealistic product shot of a frosted glass candle with pale mint-green wax and a clean label "Minted Meadow".
-                 Candle centered on the same neutral matte surface. Unified background: soft-focus shallow pool of water with
-                 scattered green leaves, gentle natural light top-right, tranquil mood. Add a small basil leaf and mint sprig
-                 beside candle, shallow depth of field, high-resolution.'
+                '/images/mintedMeadowImg.png'
              ),
              (
                 'Lotus Hush',
@@ -105,10 +77,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  20,
                 'lotus, green tea',
                 'zen',
-                'Photorealistic product shot of a frosted ceramic jar candle with pearly white wax and a minimalist label
-                 "Lotus Hush". Candle sits on the same neutral matte surface. Unified background: soft-focus shallow pool
-                of water with scattered green leaves, soft natural light from top-right, serene mood. Include a single
-                lotus blossom and a few loose green-tea leaves nearby, faint wick glow, shallow depth of field, high-resolution.'
+                '/images/lotusHushImg.png'
              ),
              (
                 'Amber Nocturne',
@@ -116,11 +85,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  25,
                 'amber, musk',
                 'luxury',
-                'Photorealistic product shot of a dark smoky glass candle with warm amber-colored wax and a refined label
-                "Amber Nocturne". Candle placed on the same neutral matte surface. Unified background: soft-focus shallow
-                 pool of water with a few dark-green leaves, soft natural light from top-right creating subtle highlights,
-                 peaceful mood. Include faint warm wick glow and slight reflection on surface, shallow depth of field,
-                 high-resolution.'
+                '/images/amberNocturneImg.png'
              ),
              (
                 'Twilight Juniper',
@@ -128,11 +93,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  13,
                 'juniper, cedar, citrus',
                 'outdoors',
-                'Photorealistic product shot of a small glass jar candle with deep teal wax and a minimalist label
-                 "Twilight Juniper". Candle placed on a neutral matte surface. Unified background: soft-focus shallow pool
-                 of water at rear-left with scattered green leaves, gentle natural sunlight from top-right, peaceful mood.
-                 Include a small sprig of juniper berries beside the jar, faint warm wick glow, shallow depth of field,
-                 high-resolution.'
+                '/images/twilightJuniperImg.png'
              ),
              (
                 'Gilded Yuzu',
@@ -140,10 +101,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  17,
                 'yuzu, ginger',
                 'citrus',
-                'Photorealistic product shot of a clear jar candle with pale golden-yellow wax and an elegant label "Gilded Yuzu".
-                 Candle sits on the same neutral matte surface. Unified background: soft-focus shallow pool of water with scattered
-                 leaves, soft natural light from top-right, calm reflective highlights, peaceful mood. Add tiny candied-ginger piece
-                 and a thin yuzu peel curl nearby, shallow depth of field, high-resolution.'
+                '/images/gildedYuzuImg.png'
              ),
              (
                 'Honeyed Chamomile',
@@ -151,10 +109,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  9,
                 'chamomile, honey, vanilla',
                 'sleep',
-                'Photorealistic product shot of a frosted glass candle with creamy off-white wax and a clean label "Honeyed Chamomile".
-                 Candle centered on the identical neutral surface. Unified background: soft-focus shallow pool of water with scattered
-                 green leaves, soft natural light from top-right, peaceful mood. Include a few chamomile blossoms and a honey dipper
-                 fragment nearby, faint wick glow, shallow depth of field, high-resolution.'
+                '/images/honeyedChamomileImg.png'
              ),
              (
                 'Tobacco & Fig',
@@ -162,10 +117,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  24,
                 'fig, tobacco, cedar',
                 'smoky',
-                'Photorealistic product shot of a dark smoky-glass candle with deep plum wax and a refined label "Tobacco & Fig".
-                 Candle on the same neutral matte surface. Unified background: soft-focus shallow pool of water with a few
-                 dark-green leaves, soft natural light from top-right, calm reflective highlights, peaceful mood. Add a halved
-                 fig and a dried tobacco leaf beside the jar, slight warm wick glow, shallow depth of field, high-resolution.'
+                '/images/tobaccoFigImg.png'
              ),
              (
                 'Orchard Smoke',
@@ -173,10 +125,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  11,
                 'apple, birch',
                 'rustic',
-                'Photorealistic product shot of a medium amber glass candle with warm apple-amber wax and a refined label "Orchard Smoke".
-                 Candle placed on the same neutral matte surface. Unified background: soft-focus shallow pool of water with scattered
-                 leaves, soft natural light from top-right, peaceful mood. Add a thin apple slice and a small birch twig beside the
-                 jar, slight warm wick glow, shallow depth of field, high-resolution.'
+                '/images/orchardSmokeImg.png'
              ),
              (
                 'Earl Grey Zest',
@@ -184,10 +133,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  12,
                 'bergamot, lemon',
                 'tea',
-                'Photorealistic product shot of a matte ceramic jar candle with soft dove-gray wax and a minimalist label
-                "Earl Grey Zest". Candle placed on the same neutral matte surface. Unified background: soft-focus shallow pool
-                of water with scattered green leaves, gentle natural sunlight from top-right, tranquil mood. Include loose tea
-                leaves and a thin lemon peel curl nearby, shallow depth of field, high-resolution.'
+                '/images/earlGreyZestImg.png'
              ),
              (
                 'Citrine Drift',
@@ -195,10 +141,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  13,
                 'grapefruit, coconut',
                 'tropical',
-                'Photorealistic product shot of a small clear glass jar candle with warm coral-pink wax and a minimalist label
-                "Citrine Drift". Candle sits on a neutral matte surface. Unified background: soft-focus shallow pool of water with
-                scattered green leaves, soft natural light from top-right, peaceful mood. Include a thin grapefruit slice and
-                a small coconut shard beside the jar, slight warm wick glow, shallow depth of field, high-resolution.'
+                '/images/citrineDriftImg.png'
              ),
              (
                 'Saffron Solace',
@@ -206,10 +149,7 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  28,
                 'saffron, honey',
                 'luxury',
-                'Photorealistic product shot of a short matte jar candle with deep saffron-gold wax and an elegant label "Saffron Solace".
-                Candle placed on the same neutral matte surface. Unified background: soft-focus shallow pool of water with scattered leaves,
-                soft natural light from top-right, calm reflective highlights, peaceful mood. Add a few saffron threads and a honey dipper
-                fragment nearby, faint wick glow, shallow depth of field, high-resolution.'
+                '/images/saffronSolaceImg.png'
              ),
              (
                 'Coastal Drift',
@@ -217,9 +157,5 @@ INSERT INTO stock_items (name, description, price, scent, category, image) VALUE
                  16,
                 'driftwood, sea grass',
                 'coastal',
-                'Photorealistic product shot of a frosted glass candle with pale seafoam-green wax and a minimalist label
-                "Coastal Drift". Candle centered on the identical neutral matte surface. Unified background: soft-focus
-                shallow pool of water with scattered green leaves, soft natural light from top-right, gentle ripples in
-                water out of focus, tranquil mood. Include a small driftwood piece and a tuft of sea grass nearby,
-                shallow depth of field, high-resolution.'
+                '/images/coastalDriftImg.png'
              );
